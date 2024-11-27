@@ -53,7 +53,7 @@ public class DbHelper extends SQLiteOpenHelper {
                 "so_dien_thoai_kh TEXT, " +
                 "thanh_tien REAL, " +
                 "ngay TEXT, " +
-                "dia_chi_giao_hang TEXT, " +
+                "gio TEXT, " +
                 "ghi_chu TEXT, " +
                 "trang_thai TEXT, " +
                 "FOREIGN KEY(username) REFERENCES " + TABLE_TAI_KHOAN + "(username))");
